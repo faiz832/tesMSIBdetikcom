@@ -576,7 +576,7 @@ body {
 }
 
 /*moblie potrait devices (mobile, 320px)*/
-@media (max-width: 320px) {
+@media (max-width: 426px) {
   .hero {
     background-position: calc(50% - 250px) center;
   }
