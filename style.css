@@ -145,6 +145,7 @@ body {
 }
 
 .hero-form button {
+  width: 233px;
   margin-left: 16px;
   background: var(--soft-blue);
   color: var(--off-white);
@@ -158,7 +159,16 @@ body {
   background: #394abb;
 }
 
-/* section 1  */
+/*=== mockup section ===*/
+.mockup-section {
+  gap: 60px;
+}
+.offer-container {
+  padding: 0 !important;
+}
+.img-section {
+  float: left;
+}
 .offer-box-mockup,
 .offer-box {
   width: 460px;
@@ -194,11 +204,12 @@ body {
   line-height: 24px;
 }
 
-.img-section img {
-  float: right;
-  margin-left: 5.5rem;
+.img-section {
   width: 800px;
   height: 654px;
+  background-image: url(asset/img/mockup.png);
+  background-position: right;
+  background-size: cover;
 }
 
 /*=== Info section ===*/
@@ -435,11 +446,10 @@ body {
   }
   .hero-offer {
     width: 510px;
-  }
-  .hero-form .group-email {
-    width: 298px;
+    height: 365px;
   }
   .hero-form button {
+    width: 200px;
     padding: 10px 20px;
   }
   .offer-container {
@@ -447,13 +457,11 @@ body {
     display: flex;
     flex-wrap: wrap-reverse;
   }
-  .img-section img {
-    margin-left: 0;
-    width: auto;
-    height: 654px;
-    margin-bottom: 48px;
+  .img-section {
+    background-position: left;
   }
   .info-section,
+  .info-section2,
   .info-section3 {
     margin: 0;
     padding: 0;
@@ -506,6 +514,9 @@ body {
     padding-top: 1rem !important;
     padding-left: 1rem !important;
   }
+  .offer-box-mockup {
+    margin-left: 2rem;
+  }
   .offer-box {
     width: 240px;
     height: 438px;
@@ -525,6 +536,9 @@ body {
   }
   .reviews-section {
     padding: 0;
+  }
+  .row-responsive {
+    width: 568px;
   }
 }
 
