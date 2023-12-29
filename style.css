@@ -603,6 +603,146 @@ body {
     justify-content: end !important;
   }
   .hero-offer {
+    width: 100%;
+    height: 422px;
+  }
+  .hero-offer .content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .hero-offer h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .hero-offer p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .hero-form {
+    width: 100%;
+    height: 110px;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .hero-form .group-email {
+    width: 100%;
+  }
+  .hero-form button {
+    width: 100%;
+    margin-left: 0;
+  }
+  .offer-box-mockup {
+    width: 260px;
+  }
+  .offer-content h2 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .col-responsive {
+    width: 100% !important;
+  }
+  .info-img,
+  .info2-img,
+  .info3-img {
+    width: 300px;
+    height: 288px;
+  }
+  .subInfoImg img {
+    width: 168px;
+    height: 72px;
+  }
+  .subInfoImg {
+    padding-left: 8.5rem !important;
+  }
+  .offer-box {
+    margin-top: 48px;
+    width: 320px;
+  }
+  .p-responsive {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .row-responsive {
+    flex-wrap: wrap-reverse;
+  }
+  .subInfoImg1 img {
+    width: 104px;
+    height: 44.61px;
+  }
+  .subInfoImg2 img {
+    width: 104px;
+    height: 99.36px;
+  }
+  .subInfoImg1,
+  .subInfoImg2 {
+    padding-left: 13rem !important;
+  }
+  .subInfo3Img1 img {
+    width: 104px;
+    height: 99.34px;
+  }
+  .subInfo3Img2 img {
+    width: 104px;
+    height: 44.61px;
+  }
+  .subInfo3Img1 {
+    padding-top: 8.5rem !important;
+  }
+  .review-title {
+    width: 240px;
+  }
+  .review-title h1 {
+    font-size: 34px;
+    line-height: 42px;
+    margin: 0;
+  }
+  .row-group {
+    flex-wrap: wrap-reverse;
+  }
+  .component-footer-group {
+    margin-top: 0;
+  }
+  .stayuptodate {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  .stayuptodate,
+  .company-footer,
+  .features-footer,
+  .contact-footer {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .hero {
+    background-position: calc(50% - 250px) center;
+  }
+  .hero::after {
+    content: "";
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg, var(--dark-blue), rgba(35, 35, 64, 0) 50%);
+    z-index: 0;
+  }
+  .nav-item-group {
+    padding: 1rem 0.5rem;
+  }
+  .nav-item .nav-link,
+  .nav-link-active {
+    font-size: 14px;
+  }
+  .nav-link-active {
+    padding: 5px 20px;
+  }
+  .hero-container {
+    justify-content: end !important;
+  }
+  .hero-offer {
     width: 260px;
     height: 422px;
   }
