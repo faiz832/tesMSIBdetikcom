@@ -520,7 +520,7 @@ body {
   .offer-box {
     width: 240px;
     height: 438px;
-    padding-left: 1rem;
+    padding-left: 2rem;
   }
   .offer-content h1 {
     font-size: 34px;
@@ -536,9 +536,7 @@ body {
   }
   .reviews-section {
     padding: 0;
-  }
-  .row-responsive {
-    width: 568px;
+    margin: 0;
   }
 }
 
