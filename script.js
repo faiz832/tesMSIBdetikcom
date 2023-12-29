@@ -22,7 +22,7 @@ $(".reviews-slider").owlCarousel({
     300: {
       items: 1,
     },
-    550: {
+    540: {
       items: 2,
     },
     1000: {
