@@ -7,7 +7,7 @@ hamburger.onclick = function () {
 
 // === review card carousel ===
 $(".reviews-slider").owlCarousel({
-  autoplay: false,
+  autoplay: true,
   loop: true,
   slideSpeed: 3000,
   items: 3,
