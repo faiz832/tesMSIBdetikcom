@@ -23,7 +23,7 @@ body {
 
 /*=== Hero Section ===*/
 .hero {
-  background-image: url("asset/img/herobg.png");
+  background-image: url("../asset/img/landing page/herobg.png");
   width: 100%;
   height: 800px;
   background-position: center;
@@ -101,7 +101,7 @@ body {
 }
 
 .nav-link-active:hover {
-  background: #383880;
+  background: #1e37d780;
 }
 
 /*=== Hero offer ===*/
@@ -156,7 +156,7 @@ body {
 }
 
 .hero-form button:hover {
-  background: #394abb;
+  background: #3a51e3;
 }
 
 /*=== mockup section ===*/
@@ -217,7 +217,7 @@ body {
 .img-section {
   width: 800px;
   height: 654px;
-  background-image: url(asset/img/mockup.png);
+  background-image: url("../asset/img/landing page/mockup.png");
   background-position: right;
   background-size: cover;
 }
@@ -231,7 +231,7 @@ body {
 }
 
 .info-img {
-  background-image: url(asset/img/info.png);
+  background-image: url("../asset/img/landing page/info.png");
 }
 
 .info-img .subInfoImg {
@@ -241,7 +241,7 @@ body {
 
 /* === info section 2 === */
 .info2-img {
-  background-image: url(asset/img/info2.png);
+  background-image: url("../asset/img/landing page/info2.png");
 }
 
 .info2-img .subInfoImg1 {
@@ -256,7 +256,7 @@ body {
 
 /* === info section 3 === */
 .info3-img {
-  background-image: url(asset/img/info3.png);
+  background-image: url("../asset/img/landing page/info3.png");
 }
 
 .info3-img .subInfo3Img1 {
@@ -738,16 +738,6 @@ body {
     background: linear-gradient(90deg, var(--dark-blue), rgba(35, 35, 64, 0) 50%);
     z-index: 0;
   }
-  .nav-item-group {
-    padding: 1rem 0.5rem;
-  }
-  .nav-item .nav-link,
-  .nav-link-active {
-    font-size: 14px;
-  }
-  .nav-link-active {
-    padding: 5px 20px;
-  }
   .hero-container {
     justify-content: end !important;
   }
@@ -843,22 +833,5 @@ body {
     font-size: 34px;
     line-height: 42px;
     margin: 0;
-  }
-  .row-group {
-    flex-wrap: wrap-reverse;
-  }
-  .component-footer-group {
-    margin-top: 0;
-  }
-  .stayuptodate {
-    margin-top: 0;
-    margin-bottom: 2rem;
-  }
-  .stayuptodate,
-  .company-footer,
-  .features-footer,
-  .contact-footer {
-    width: 100%;
-    margin-top: 2rem;
   }
 }
